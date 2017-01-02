@@ -49,3 +49,7 @@ section {
     width: 30%;
     margin: 0 1.5% 24px 1.5%;
 }
+
+video {
+    text-align: center;
+}
