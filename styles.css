@@ -36,7 +36,7 @@ h2 {
     color: black;
     font-family: "Arial", Arial, Sans-serif;
     text-align: center;
-    background-color: rgba(80, 168, 175, 0.5);
+    border: rgba(80, 168, 175, 0.5);
 }
 
 p {
