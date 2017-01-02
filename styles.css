@@ -33,13 +33,13 @@ li a:hover:not(.active) {
 
 h2 {
     color: black;
+    font-family: "Verdana", Verdana, Sans-serif;
     text-align: center;
     font-weight: bold;
     background-color: rgba(80, 168, 175, 0.5);
-    font-family: "Arial", Arial, Sans-serif;
 }
 
 p {
-    text-align: left;
     font-family: "Verdana", Verdana, Sans-serif;
+    text-align: left;
 }
