@@ -31,11 +31,11 @@ li a:hover:not(.active) {
     color: white;
 }
 
-h1 {
+h2 {
     color: black;
     text-align: center;
     font-weight: bold;
-    background-color: #50A8AF;
+    border: 5px #50A8AF;
 }
 
 p {
