@@ -1,6 +1,35 @@
- body {
-    background-color: powderblue;
+body {
+    margin: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #80;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #50A8AF;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #af5750;
+    color: white;
+}
+
 h1 {
     color: blue;
 }
