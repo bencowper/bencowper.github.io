@@ -19,6 +19,7 @@ li a {
     color: #FFFFFF;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: "Verdana", Verdana, Sans-serif;
 }
 
 li a.active {
@@ -33,9 +34,8 @@ li a:hover:not(.active) {
 
 h2 {
     color: black;
-    font-family: "Verdana", Verdana, Sans-serif;
+    font-family: "Arial", Arial, Sans-serif;
     text-align: center;
-    font-weight: bold;
     background-color: rgba(80, 168, 175, 0.5);
 }
 
