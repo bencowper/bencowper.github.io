@@ -31,8 +31,12 @@ li a:hover:not(.active) {
 }
 
 h1 {
-    color: blue;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
+
 p {
     color: red;
+    text-align: left;
 }
