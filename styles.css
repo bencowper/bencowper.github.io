@@ -14,19 +14,19 @@ ul {
     overflow: auto;
 }
 
-li item {
+li a {
     display: block;
     color: #FFFFFF;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li item.active {
+li a.active {
     background-color: #50A8AF;
     color: white;
 }
 
-li item:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #af5750;
     color: white;
 }
