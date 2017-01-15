@@ -1,0 +1,17 @@
+/* TEAM */
+
+    Programming, images, content: Ben Cowper
+
+    Contact: cowpervideos@gmail.com
+
+    Location: MA, USA
+
+/* SITE */
+
+    -Still under construction-
+
+    Last update: 01/15/2017
+
+    Standards: HTML, CSS
+
+    Software: Sublime Text 2, GitHub
