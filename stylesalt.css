@@ -8,18 +8,16 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    width: 17%;    
+    overflow: hidden; 
     background-color: #7a7a7a;
-    height: 100%;
 }
 
-/* Float the list items side by side
-ul.topnav li {float: left;} */
+/* Float the list items side by side */
+ul.topnav li {float: left;}
 
 /* Style the links inside the list items */
 ul.topnav li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 8px 16px;
