@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+ /* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 17%;    
+    background-color: #7a7a7a;
+    height: 100%;
+}
+
+/* Float the list items side by side
+ul.topnav li {float: left;} */
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: "Verdana", Verdana, Sans-serif;
+}
+
+li a.active {
+    background-color: #50A8AF;
+    color: white;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #af5750}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #7a7a7a;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: "Verdana", Verdana, Sans-serif;
+}
+
+li a.active {
+    background-color: #50A8AF;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #af5750;
+    color: white;
+}*/
+
+h2 {
+    color: black;
+    font-family: "Arial", Arial, Sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: "Verdana", Verdana, Sans-serif;
+}
+
+section {
+    float: left;
+    width: 30%;
+    margin: 0 1.5% 24px 1.5%;
+}
