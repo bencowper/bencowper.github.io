@@ -10,7 +10,7 @@
 
     -Still under construction-
 
-    Last update: 01/15/2017
+    Last update: 01/22/2017
 
     Standards: HTML, CSS
 
