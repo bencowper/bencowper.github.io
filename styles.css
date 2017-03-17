@@ -38,6 +38,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: black;
+    font-family: "Arial", Arial, Sans-serif;
+    text-align: center;
+}
+
 p {
     font-family: "Verdana", Verdana, Sans-serif;
 }
