@@ -48,8 +48,8 @@ h4 {
     color: black;
     font-family: "Arial", Arial, Sans-serif;
     text-align: left;
-    font-style: italic;
-    margin-bottom: 0px;
+    font-style: bold;
+    margin-bottom: 0.2em;
 }
 
 p {
