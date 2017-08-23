@@ -67,7 +67,7 @@ footer {
     font-size: 10px;
     text-align: left;
     color: #9a9a9a;
-    position: absolute;
+    position: fixed;
     float: left;
     bottom: 0;
     padding: 0.5em 8px;
