@@ -44,6 +44,14 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    color: black;
+    font-family: "Arial", Arial, Sans-serif;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
 p {
     font-family: "Verdana", Verdana, Sans-serif;
 }
