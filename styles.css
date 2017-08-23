@@ -62,3 +62,16 @@ section {
     width: 30%;
     margin: 0 1.5% 24px 1.5%;
 }
+
+footer {
+    font-size: 10px;
+    text-align: left;
+    color: #9a9a9a;
+    position:fixed;
+    float: left;
+    bottom:0;
+    padding: 0.5em 8px;
+    width:17%;
+    overflow: auto;
+    font-family: "Verdana", Verdana, Sans-serif;
+}
