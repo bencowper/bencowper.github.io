@@ -4,13 +4,13 @@
 
     Contact: cowpervideos@gmail.com
 
-    Location: MA, USA
+    Location: Minneapolis, MN, USA
 
 /* SITE */
 
-    -Still under construction-
+    -Under construction-
 
-    Last update: 01/22/2017
+    Last update: 08/23/2017
 
     Standards: HTML, CSS
 
