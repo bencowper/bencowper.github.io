@@ -70,7 +70,7 @@ footer {
     position: fixed;
     float: left;
     bottom: 0;
-    padding: 0.5em 8px;
+    padding: 0.5em 0.5em;
     width: 17%;
     overflow: auto;
     font-family: "Verdana", Verdana, Sans-serif;
