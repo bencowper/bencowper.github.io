@@ -26,9 +26,25 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
-<style>
+<style type="text/css">
+
 h2 {
     color: white;
+}
+
+.thumbnails img {
+  height: 80px;
+  border: 2px solid #eeeeee;
+  margin: 0 2px 2px 0;
+}
+
+.thumbnails img:hover {
+  border: 2px solid #af5750;
+  cursor:pointer;
+}
+
+.preview img {
+  width: 800px;
 }
 </style>
 </head>
@@ -47,13 +63,17 @@ h2 {
 </ul>
 <footer>All content Copyright Ben Cowper, 2017</footer>
 
-<div style="margin-left:17%;padding:1px 0px;height:1000px;background-color: red;text-align: center;overflow: auto;">
+<div style="margin-left:17%;padding:1px 0px;height:1000px;background-color: #000000;text-align: center;overflow: auto;">
 
+<a name="Ben Cowper"></a>
 <hr color="#50A8AF">
 <h2>Ben Cowper</h2>
 <hr color="#50A8AF">
-
-<img src="images/Moon.jpg" alt="moon" height="50%" width="auto">
+<br>
+<div class="gallery" align="center">
+    <div class="preview" align="center">
+    <img name="preview" src="images/Snowflake.jpg" alt="Snowflake"/>
+</div>
 
 </div>
 </body>
