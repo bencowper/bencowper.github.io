@@ -72,10 +72,8 @@ p {
     margin-right: 1%;
 }
 
-section {
-    float: left;
-    width: 30%;
-    margin: 0 1.5% 1.5% 1.5%;
+a {
+    text-decoration: none;
 }
 
 footer {
