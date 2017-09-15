@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://bcowper.com/</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/me.html</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/personal.html</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/professional.html</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/reel.html</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/tvstudio.html</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/photo.html</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://bcowper.com/Ben%20Cowper%20|%20resume.pdf</loc>
+  <lastmod>2017-09-15T16:26:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
