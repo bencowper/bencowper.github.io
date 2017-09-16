@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106541861-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -38,28 +38,14 @@
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
 <style type="text/css">
-.thumbnails img {
-  height: 80px;
-  border: 2px solid #eeeeee;
-  margin: 0 2px 2px 0;
-}
-
-.thumbnails img:hover {
-  border: 2px solid #af5750;
-  cursor:pointer;
-}
-
-.preview img {
-  width: 800px;
-}
 p {
-  margin-left: 12%;
-  margin-right: 12%;
+  text-align: center;
 }
 </style>
+
 </head>
 
-<ul>
+<div class="sidenav"> 
   <li><a href="me.html">me</a></li>
   <li><a class="active" href="personal.html">film - personal</a></li>
   <li><a href="professional.html">film - professional</a></li>
@@ -69,25 +55,27 @@ p {
   <li><a target="_blank" href="Ben Cowper | resume.pdf">resume</a></li>
   <li><a target="_blank" href="https://linkedin.com/in/bencowper">linkedin</a></li>
   <li><a target="_blank" href="https://vimeo.com/bencowper">vimeo</a></li>
-</ul>
+</div>
 
 <footer>All content Copyright Ben Cowper, 2017</footer>
 
 <body>
 
-<div style="margin-left:17%;">
+<div class="main">
 
 <hr color="#50A8AF">
 <h2>Dreams (series, 2016 - )</h2>
 <hr color="#50A8AF">
 <br>
-
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/174029936?color=af5750&title=0&byline=0&portrait=0" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>  
-  <iframe src="https://player.vimeo.com/video/165776517?color=af5750&title=0&byline=0&portrait=0" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/174029936?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>  
+  <iframe src="https://player.vimeo.com/video/165776517?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
 <br>
-  <iframe src="https://player.vimeo.com/video/174029854?color=af5750&title=0&byline=0&portrait=0" width="450" height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  <iframe src="https://player.vimeo.com/video/165776508?color=af5750&title=0&byline=0&portrait=0" width="450" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/174029854?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+  <iframe src="https://player.vimeo.com/video/165776508?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   director, editor, cinematographer, performer
@@ -104,8 +92,8 @@ p {
 <hr color="#50A8AF">
 <br>
 
-<div class="gallery" align="center">
-    <div class="preview" align="center">
+<div class="gallery">
+    <div class="preview">
     <img name="preview" src="images/Nona1.jpg" alt="Nona"/>
   </div>
   <div class="thumbnails">
@@ -117,6 +105,8 @@ p {
     <img onmouseover="preview.src=Nona6.src" name="Nona6" src="images/Nona6.jpg" alt="Nona 6"/>
   </div>
 <br>
+
+<div class="space">
 <p>
   TRT 17m
 <br><br>
@@ -127,6 +117,7 @@ p {
   (For a private screening, please <a href="mailto:cowpervideos@gmail.com">contact me</a> directly)
 </p>
 </div>
+</div>
 
 <br><br>
 
@@ -136,8 +127,12 @@ p {
 </h2>
 <hr color="#50A8AF">
 <br>
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/132660943?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/132660943?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   TRT 3:14
@@ -156,8 +151,11 @@ p {
 </h2>
 <hr color="#50A8AF">
 <br>
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/140592868?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/140592868?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   TRT 5m
@@ -176,8 +174,11 @@ p {
 </h2>
 <hr color="#50A8AF">
 <br>
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/123589583?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/123589583?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   TRT 2:49
@@ -197,8 +198,11 @@ p {
 </h2>
 <hr color="#50A8AF">
 <br>
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/127789780?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/127789780?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   TRT 35:19
@@ -217,8 +221,11 @@ p {
 </h2>
 <hr color="#50A8AF">
 <br>
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/93182932?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/93182932?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   TRT 3:12
@@ -237,8 +244,11 @@ p {
 </h2>
 <hr color="#50A8AF">
 <br>
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/119695079?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/119695079?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
+
 <br><br>
 <p>
   TRT 2:24
@@ -256,9 +266,11 @@ p {
 <h2>Hazard Lights (2014)</h2>
 <hr color="#50A8AF">
 <br>
+<div class="space">
+<div class="container">
+  <iframe src="https://player.vimeo.com/video/106734653?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+</div>
 
-<div align="center">
-  <iframe src="https://player.vimeo.com/video/106734653?color=af5750&title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br><br>
 <p>
   TRT 16:52
