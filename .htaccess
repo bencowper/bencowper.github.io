@@ -1,0 +1,6 @@
+suPHP_ConfigPath /home/bencowper/public_html 
+
+<Files .htaccess> 
+	order allow,deny
+	deny from all
+</Files>
