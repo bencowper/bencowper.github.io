@@ -8,9 +8,7 @@
 
 /* SITE */
 
-    -Under construction-
-
-    Last update: 09/22/2017
+    Last update: 10/11/2017
 
     Standards: HTML, CSS
 
