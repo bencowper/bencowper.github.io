@@ -13,6 +13,10 @@ body {
     margin: 0;
 }
 
+.mobilenav {
+    display : none;
+}
+
 .main {
     margin-left:17%;
 }

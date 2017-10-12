@@ -35,9 +35,20 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
+<script type="text/javascript">
+function toggle(Collapse) {
+  var CState = document.getElementById(Collapse);
+  CState.style.display = (CState.style.display != 'block') ? 'block' : 'none';
+}
+</script>
+
 </head>
 
-<div class="sidenav"> 
+<div class="mobilenav" onclick="toggle('menu')">
+      <h3 style="text-align: left; color: black; margin: 1em; padding: 0; border: 0;">menu</h3>
+</div>
+
+<div class="sidenav" id="menu"> 
   <li><a class="active" href="ben-cowper-about.html">me</a></li>
   <li><a href="personal-film-portfolio.html">film - personal</a></li>
   <li><a href="professional-film-portfolio.html">film - professional</a></li>
