@@ -28,26 +28,6 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
-<script type="text/javascript">
-function openMenu() {
-    document.getElementById("menu").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.menuButton')) {
-
-    var dropdowns = document.getElementsByClassName("menuItems");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
 <style type="text/css">
 body, html {
   background-color: #000000;
@@ -89,6 +69,26 @@ body, html {
 </div>
 
 </div>
+
+<script type="text/javascript">
+function openMenu() {
+    document.getElementById("menu").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.menuButton')) {
+
+    var dropdowns = document.getElementsByClassName("menuItems");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106541861-1"></script>
 <script>
