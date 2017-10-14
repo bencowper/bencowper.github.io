@@ -28,30 +28,37 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
-<style type="text/css">
-body {
-  background-color: #000000;
-}
-
-html {
-	background-color: #000000;
-}
-</style>
-
 <script type="text/javascript">
-function toggle(Collapse) {
-  var CState = document.getElementById(Collapse);
-  CState.style.display = (CState.style.display != 'block') ? 'block' : 'none';
+function openMenu() {
+    document.getElementById("menu").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.menuButton')) {
+
+    var dropdowns = document.getElementsByClassName("menuItems");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
 </script>
 
+<style type="text/css">
+body, html {
+  background-color: #000000;
+}
+</style>
+
 </head>
 
-<div class="mobilenav" onclick="toggle('menu')">
-      <h3 style="text-align: left; color: white; margin: 1em; padding: 0; border: 0;">menu</h3>
-</div>
-
-<div class="sidenav" id="menu"> 
+<div>
+  <img src="icons/menu-white.png" style="width:10%;" alt="menu" onclick="openMenu()" class="menuButton"></img>
+  <div id="menu" class="menuItems">
   <li><a href="ben-cowper-about.html">me</a></li>
   <li><a href="personal-film-portfolio.html">film - personal</a></li>
   <li><a href="professional-film-portfolio.html">film - professional</a></li>
@@ -61,6 +68,7 @@ function toggle(Collapse) {
   <li><a target="_blank" href="Ben Cowper | resume.pdf">resume</a></li>
   <li><a target="_blank" href="https://linkedin.com/in/bencowper">linkedin</a></li>
   <li><a target="_blank" href="https://vimeo.com/bencowper">vimeo</a></li>
+  </div>
 </div>
 
 <footer>All content Copyright Ben Cowper, 2017</footer>

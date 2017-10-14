@@ -1,48 +1,44 @@
-html {
+html, body {
     background-color: #eeeeee;
 }
 
-body {
-    background-color: #eeeeee;
+.menuButton {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    margin: 1em;
+    cursor: pointer;
 }
 
-.mobilenav {
-    display : block;
-    cursor:pointer;
+.menuItems {
+    display: none;
+    position: relative;
+    background-color: #7a7a7a;
+	height: 100%;
+	width: 100%;
+}
+
+.menuItems a {
+    font-size: 1.25em;
+    color: #FFFFFF;
+    font-family: "Verdana", Verdana, Sans-serif;
+    padding: 4% 6%;
+    display: block;
+}
+
+.menuItems a.active {
+    background-color: #50A8AF;
+    color: white;
+}
+
+.show {
+	display:block;
 }
 
 .main {
-    width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
-}
-
-.sidenav {
-    text-align: center;
-    list-style-type: none;
-    width: 100%;
-    position: relative;
-    background-color: #7a7a7a;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-.sidenav a {
-    font-size: 1em;
-    color: #FFFFFF;
-    font-family: "Verdana", Verdana, Sans-serif;
-}
-
-.sidenav a:hover:not(.active) {
-    background-color: #af5750;
-    color: white;
-}
-
-.sidenav a.active {
-    background-color: #50A8AF;
-    color: white;
 }
 
 .columns {
@@ -50,6 +46,9 @@ body {
 
 .column {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .gallery {
@@ -57,7 +56,7 @@ body {
 }
 
 .thumbnails img {
-  width: 11%;
+  width: 25%;
   border: 2px solid #eeeeee;
 }
 
@@ -67,8 +66,10 @@ body {
 }
 
 .preview img {
-  text-align: center;
-  width: 80%;
+    text-align: center;
+    width: 95%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .container {
@@ -79,8 +80,8 @@ body {
 }
 
 .space {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .video {
@@ -95,12 +96,14 @@ h2 {
     color: black;
     font-family: "Arial", Arial, Sans-serif;
     text-align: center;
+    font-size: 1.5em;
 }
 
 h3 {
     color: black;
     font-family: "Arial", Arial, Sans-serif;
     text-align: center;
+    font-size: 1.25em;
 }
 
 h4 {
@@ -108,16 +111,18 @@ h4 {
     font-family: "Arial", Arial, Sans-serif;
     text-align: left;
     font-style: bold;
-/*    margin-bottom: 0.2em;
+    font-size: 1em;
+    margin-bottom: 0.2em;
     margin-left: 1.5%;
-    margin-right: 1.5%;*/
+    margin-right: 1.5%;
 }
 
 p {
     font-family: "Verdana", Verdana, Sans-serif;
-/*    margin-top: 0;
+    font-size: 1em;
+    margin-top: 0;
     margin-left: 1%;
-    margin-right: 1%;*/
+    margin-right: 1%;
 }
 
 a {

@@ -13,15 +13,11 @@ body {
     margin: 0;
 }
 
-.mobilenav {
-    display : none;
+.menuButton {
+    display: none;
 }
 
-.main {
-    margin-left:17%;
-}
-
-.sidenav {
+.menuItems {
     list-style-type: none;
     height: 100%;
     width: 17%;
@@ -29,7 +25,7 @@ body {
     background-color: #7a7a7a;
 }
 
-.sidenav a {
+.menuItems a {
     padding: 4% 6%;
     font-size: 1em;
     color: #FFFFFF;
@@ -37,14 +33,18 @@ body {
     font-family: "Verdana", Verdana, Sans-serif;
 }
 
-.sidenav a:hover:not(.active) {
+.menuItems a:hover:not(.active) {
     background-color: #af5750;
     color: white;
 }
 
-.sidenav a.active {
+.menuItems a.active {
     background-color: #50A8AF;
     color: white;
+}
+
+.main {
+    margin-left:17%;
 }
 
 .columns {
@@ -98,13 +98,7 @@ body {
     height: 100%;
 }
 
-h2 {
-    color: black;
-    font-family: "Arial", Arial, Sans-serif;
-    text-align: center;
-}
-
-h3 {
+h2, h3 {
     color: black;
     font-family: "Arial", Arial, Sans-serif;
     text-align: center;

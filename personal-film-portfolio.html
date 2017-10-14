@@ -4,6 +4,14 @@
 
 <title>Personal Film Portfolio | Ben Cowper - Filmmaker, Educator, Artist</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+
+<style type="text/css">
+  p {
+  text-align: center;
+}
+</style>
+
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="mobile.css" />
 <link rel="author" href="humans.txt" />
 
 <link rel="shortcut icon" href="icons/favicon.ico">
@@ -27,15 +35,31 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
-<style type="text/css">
-p {
-  text-align: center;
+<script type="text/javascript">
+function openMenu() {
+    document.getElementById("menu").classList.toggle("show");
 }
-</style>
+
+window.onclick = function(event) {
+  if (!event.target.matches('.menuButton')) {
+
+    var dropdowns = document.getElementsByClassName("menuItems");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 </head>
 
-<div class="sidenav"> 
+<div>
+  <img src="icons/menu-black.png" style="width:10%;" alt="menu" onclick="openMenu()" class="menuButton"></img>
+  <div id="menu" class="menuItems">
   <li><a href="ben-cowper-about.html">me</a></li>
   <li><a class="active" href="personal-film-portfolio.html">film - personal</a></li>
   <li><a href="professional-film-portfolio.html">film - professional</a></li>
@@ -45,6 +69,7 @@ p {
   <li><a target="_blank" href="Ben Cowper | resume.pdf">resume</a></li>
   <li><a target="_blank" href="https://linkedin.com/in/bencowper">linkedin</a></li>
   <li><a target="_blank" href="https://vimeo.com/bencowper">vimeo</a></li>
+  </div>
 </div>
 
 <footer>All content Copyright Ben Cowper, 2017</footer>

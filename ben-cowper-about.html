@@ -36,19 +36,30 @@
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
 <script type="text/javascript">
-function toggle(Collapse) {
-  var CState = document.getElementById(Collapse);
-  CState.style.display = (CState.style.display != 'block') ? 'block' : 'none';
+function openMenu() {
+    document.getElementById("menu").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.menuButton')) {
+
+    var dropdowns = document.getElementsByClassName("menuItems");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
 </script>
 
 </head>
 
-<div class="mobilenav" onclick="toggle('menu')">
-      <h3 style="text-align: left; color: black; margin: 1em; padding: 0; border: 0;">menu</h3>
-</div>
-
-<div class="sidenav" id="menu"> 
+<div>
+  <img src="icons/menu-black.png" style="width:10%;" alt="menu" onclick="openMenu()" class="menuButton"></img>
+  <div id="menu" class="menuItems">
   <li><a class="active" href="ben-cowper-about.html">me</a></li>
   <li><a href="personal-film-portfolio.html">film - personal</a></li>
   <li><a href="professional-film-portfolio.html">film - professional</a></li>
@@ -58,6 +69,7 @@ function toggle(Collapse) {
   <li><a target="_blank" href="Ben Cowper | resume.pdf">resume</a></li>
   <li><a target="_blank" href="https://linkedin.com/in/bencowper">linkedin</a></li>
   <li><a target="_blank" href="https://vimeo.com/bencowper">vimeo</a></li>
+  </div>
 </div>
 
 <footer>All content Copyright Ben Cowper, 2017</footer>
