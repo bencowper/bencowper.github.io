@@ -2,6 +2,9 @@
 <html>
 <head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="galleria/galleria-1.5.7.min.js"></script>
+
 <title>Photography Portfolio | Ben Cowper - Filmmaker, Educator, Artist</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
@@ -11,8 +14,8 @@
 }
 </style>
 
-<link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="mobile.css" />
-<link rel="author" href="humans.txt" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="mobile.css">
+<link rel="author" href="humans.txt">
 
 <link rel="shortcut icon" href="icons/favicon.ico">
 <link rel="icon" sizes="16x16 32x32 64x64" href="icons/favicon.ico">
@@ -64,31 +67,34 @@
 <hr color="#50A8AF">
 <br>
 
-<div class="gallery">
-    <div class="preview">
-    <img name="preview" src="images/Sunglasses.png" alt="Sunglasses"/>
-  </div>
-  <div class="thumbnails">
-    <img onmouseover="preview.src=Sunglasses.src" name="Sunglasses" src="images/Sunglasses.png" alt="Sunglasses"/>
-    <img onmouseover="preview.src=Snowflake.src" name="Snowflake" src="images/Snowflake.png" alt="Snowflakes"/>
-    <img onmouseover="preview.src=SanFrancisco.src" name="SanFrancisco" src="images/SanFrancisco.png" alt="San Francisco"/>
-    <img onmouseover="preview.src=RedBarn.src" name="RedBarn" src="images/RedBarn.png" alt="Red Barn Event"/>
-    <img onmouseover="preview.src=Moon.src" name="Moon" src="images/Moon.png" alt="Moon"/>
-    <img onmouseover="preview.src=Mountain.src" name="Mountain" src="images/Mountain.png" alt="Montana Mountain"/>
-    <br>
-    <img onmouseover="preview.src=Boat.src" name="Boat" src="images/Boat.png" alt="Middletown Boat"/>
-    <img onmouseover="preview.src=Squam.src" name="Squam" src="images/Squam.png" alt="Squam Lake"/>
-    <img onmouseover="preview.src=Yellowstone.src" name="Yellowstone" src="images/Yellowstone.png" alt="Yellowstone"/>
-  </div>
-<br>
-
 <div class="space">
+<div class="container">
+<div class="galleria">
+    <img src="images/Sunglasses.jpg">
+    <img src="images/Snowflake.jpg">
+    <img src="images/SanFrancisco.jpg">
+    <img src="images/RedBarn.jpg">
+    <img src="images/Moon.jpg">
+    <img src="images/Mountain.jpg">
+    <img src="images/Boat.jpg">
+    <img src="images/Squam.jpg">
+    <img src="images/Yellowstone.jpg">
+</div>
+</div>
+
+<script>
+(function() { 
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+}());
+</script>
+
+<br><br>
 <p>
   Commercial and Art Photography
 <br><br>
   All photographs by Ben Cowper
 </p>
-</div>
 </div>
 </div>
 
