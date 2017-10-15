@@ -2,7 +2,6 @@ html {
     background-color: #eeeeee;
     height: 100%;
     max-width: 1920px;
-    min-width: 480px
 }
 
 body {
@@ -22,7 +21,6 @@ body {
     list-style-type: none;
     height: 100%;
     width: 17%;
-/*    max-width: 325px;*/
     position: fixed;
     background-color: #7a7a7a;
 }

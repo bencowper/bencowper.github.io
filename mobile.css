@@ -1,7 +1,5 @@
 html, body {
     background-color: #eeeeee;
-    max-width: 1920px;
-    min-width: 40px;
 }
 
 .menuButton {
@@ -18,7 +16,6 @@ html, body {
     background-color: #7a7a7a;
 	height: 100%;
 	width: 100%;
-    max-width: 1920px;
 }
 
 .menuItems a {
