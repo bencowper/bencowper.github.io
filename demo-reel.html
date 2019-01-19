@@ -35,6 +35,8 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
 </head>
 
 <div>
@@ -67,7 +69,21 @@
 <br>
 <div class="space">
 <div class="container">
-	<iframe src="https://player.vimeo.com/video/312159081?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="demo"><img src="images/thumbs/reel/DemoReel.jpg" class="video"></a>
+  <div id="demoframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#demo').click(function(){
+        if(!$('#iframe').length) {
+                $('#demoframe').html('<iframe src="https://player.vimeo.com/video/312159081?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 <br><br>
 <p>
