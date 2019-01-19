@@ -35,6 +35,8 @@
 <meta name="msapplication-TileImage" content="icons/favicon-144.png">
 <meta name="msapplication-config" content="icons/browserconfig.xml">
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
 </head>
 
 <div>
@@ -88,14 +90,28 @@
 <br>
 <div class="space">
 <div class="container">
-	<iframe src="https://player.vimeo.com/video/312160851?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="mhc"><img src="https://i.vimeocdn.com/video/753147158_640.jpg" class="video"></a>
+  <div id="iframeHolder">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#mhc').click(function(){
+        if(!$('#iframe').length) {
+                $('#iframeHolder').html('<iframe src="https://player.vimeo.com/video/312160851?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 
 <br><br>
 <p>
   TRT 4:05
 <br><br>
-  camera, editor 
+  camera, editor
 <br><br>
   A short promotional video commissioned by the Mount Holyoke College Theatre department.
 </p>
@@ -111,7 +127,21 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://www.youtube.com/embed/hZtUYXg1Vdk?rel=0&amp;showinfo=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="ken"><img src="http://i3.ytimg.com/vi/hZtUYXg1Vdk/maxresdefault.jpg" class="video"></a>
+  <div id="kenframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#ken').click(function(){
+        if(!$('#iframe').length) {
+                $('#kenframe').html('<iframe src="https://www.youtube.com/embed/hZtUYXg1Vdk?rel=0&amp;showinfo=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 
 <br><br>
@@ -134,7 +164,21 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://player.vimeo.com/video/141407152?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="shelby"><img src="https://i.vimeocdn.com/video/538393242_640.jpg" class="video"></a>
+  <div id="shelbyframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#shelby').click(function(){
+        if(!$('#iframe').length) {
+                $('#shelbyframe').html('<iframe src="https://player.vimeo.com/video/141407152?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 
 <br><br>
@@ -156,7 +200,23 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://www.youtube.com/embed/zZ6LzERAsxE?rel=0&amp;showinfo=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+
+
+  <a id="salman"><img src="http://i3.ytimg.com/vi/zZ6LzERAsxE/maxresdefault.jpg" class="video"></a>
+  <div id="salmanframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#salman').click(function(){
+        if(!$('#iframe').length) {
+                $('#salmanframe').html('<iframe src="https://www.youtube.com/embed/zZ6LzERAsxE?rel=0&amp;showinfo=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 
 <br><br>
@@ -179,7 +239,22 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://www.youtube.com/embed/n1T2_1Za_Q8?rel=0&amp;showinfo=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+
+  <a id="ska"><img src="http://i3.ytimg.com/vi/n1T2_1Za_Q8/hqdefault.jpg" class="video"></a>
+  <div id="skaframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#ska').click(function(){
+        if(!$('#iframe').length) {
+                $('#skaframe').html('<iframe src="https://www.youtube.com/embed/n1T2_1Za_Q8?rel=0&amp;showinfo=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 
 <br><br>
@@ -208,7 +283,21 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://player.vimeo.com/video/111631355?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="path"><img src="https://i.vimeocdn.com/video/496316879_640.jpg" class="video"></a>
+  <div id="pathframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#path').click(function(){
+        if(!$('#iframe').length) {
+                $('#pathframe').html('<iframe src="https://player.vimeo.com/video/111631355?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });   
+});
+</script>
+
 </div>
 
 <br><br>
@@ -231,7 +320,21 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://player.vimeo.com/video/100529655?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="sff"><img src="https://i.vimeocdn.com/video/493864016_640.jpg" class="video"></a>
+  <div id="sffframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#sff').click(function(){
+        if(!$('#iframe').length) {
+                $('#sffframe').html('<iframe src="https://player.vimeo.com/video/100529655?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });
+});
+</script>
+
 </div>
 
 <br><br>
@@ -254,7 +357,21 @@
 <br>
 <div class="space">
 <div class="container">
-  <iframe src="https://player.vimeo.com/video/131499249?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+  <a id="sww"><img src="https://i.vimeocdn.com/video/523772031_640.jpg" class="video"></a>
+  <div id="swwframe">
+  </div>
+
+<script type="text/javascript">
+$(function(){
+    $('#sww').click(function(){
+        if(!$('#iframe').length) {
+                $('#swwframe').html('<iframe src="https://player.vimeo.com/video/131499249?color=af5750&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>');
+        }
+    });
+});
+</script>
+
 </div>
 
 <br><br>
