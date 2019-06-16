@@ -126,6 +126,8 @@ p {
 
 a {
     text-decoration: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 footer {
