@@ -2,9 +2,9 @@
 
     Programming, images, content: Ben Cowper
 
-    Contact: cowpervideos@gmail.com
+    Contact: ben@bcowper.com
 
-    Location: Minneapolis, MN, USA
+    Location: Vermont, USA
 
 /* SITE */
 
