@@ -8,7 +8,7 @@
 
 /* SITE */
 
-    Last update: 11/24/2020
+    Last update: 5/25/2021
 
     Standards: HTML, CSS, Javascript
 
